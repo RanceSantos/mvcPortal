@@ -43,6 +43,7 @@ namespace Portal.Data
             return View(admin);
         }
 
+
         // GET: Admins/Create
         public IActionResult Create()
         {
@@ -54,7 +55,7 @@ namespace Portal.Data
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID,StudentID,Last_Name,First_Name,Birthdate,Age,Address")] Admin admin)
+        public async Task<IActionResult> Create([Bind("ID,StudentID,Last_Name,First_Name,Birthdate,Age,Address,Pq1,Pq2,Pq3,Pa1,Pa2,Pa3,PqAve,PaAve,Prelim,Mq1,Mq2,Mq3,Ma1,Ma2,Ma3,MqAve,MaAve,Midterm,Pfq1,Pfq2,Pfq3,Pfa1,Pfa2,Pfa3,PfqAve,PfaAve,Prefinals,Fq1,Fq2,Fq3,Fa1,Fa2,Fa3,FqAve,FaAve,Finals")] Admin admin)
         {
             if (ModelState.IsValid)
             {
@@ -86,7 +87,7 @@ namespace Portal.Data
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,StudentID,Last_Name,First_Name,Birthdate,Age,Address")] Admin admin)
+        public async Task<IActionResult> Edit(int id, [Bind("ID,StudentID,Last_Name,First_Name,Birthdate,Age,Address,Pq1,Pq2,Pq3,Pa1,Pa2,Pa3,PqAve,PaAve,Prelim,Mq1,Mq2,Mq3,Ma1,Ma2,Ma3,MqAve,MaAve,Midterm,Pfq1,Pfq2,Pfq3,Pfa1,Pfa2,Pfa3,PfqAve,PfaAve,Prefinals,Fq1,Fq2,Fq3,Fa1,Fa2,Fa3,FqAve,FaAve,Finals")] Admin admin)
         {
             if (id != admin.ID)
             {
@@ -115,7 +116,6 @@ namespace Portal.Data
             }
             return View(admin);
         }
-
         // GET: Admins/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {

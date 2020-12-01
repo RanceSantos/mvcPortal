@@ -15,6 +15,7 @@ namespace Portal.Data
         }
 
         public DbSet<Models.Admin> Admin { get; set; }
+
         //public DbSet<Student> Student { get; set; }
 
     }

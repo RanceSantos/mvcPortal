@@ -17,7 +17,9 @@ namespace Portal.Models
     {
         public List<Admin> Admins { get; set; }
         public SelectList StudentID { get; set; }
-        public string AdminStudentID { get; set; }
+        pu
+  
+</style>blic string AdminStudentID { get; set; }
         public string SearchString { get; set; }
     }
 }*/
