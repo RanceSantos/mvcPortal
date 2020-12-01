@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Source\\Repos\\mvcPortal\\Portal\\Portal\\Portal.csproj": {}
+    "C:\\Users\\User\\source\\repos\\mvcPortal\\Portal\\Portal\\Portal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Source\\Repos\\mvcPortal\\Portal\\Portal\\Portal.csproj": {
+    "C:\\Users\\User\\source\\repos\\mvcPortal\\Portal\\Portal\\Portal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\mvcPortal\\Portal\\Portal\\Portal.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\mvcPortal\\Portal\\Portal\\Portal.csproj",
         "projectName": "Portal",
-        "projectPath": "C:\\Users\\User\\Source\\Repos\\mvcPortal\\Portal\\Portal\\Portal.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\mvcPortal\\Portal\\Portal\\Portal.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Source\\Repos\\mvcPortal\\Portal\\Portal\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\mvcPortal\\Portal\\Portal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
